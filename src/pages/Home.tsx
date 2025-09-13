@@ -1,0 +1,154 @@
+import { Link } from 'react-router-dom';
+import Navigation from '../components/Navigation';
+import heroImage from '../assets/gallery-hero.jpg';
+import interiorImage1 from '../assets/gallery-interior-1.jpg';
+import interiorImage2 from '../assets/gallery-interior-2.jpg';
+
+const Home = () => {
+  return (
+    <>
+      <Navigation />
+      
+      {/* Hero Section */}
+      <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
+        <img
+          src={heroImage}
+          alt="Galerie & Art Depot - Contemporary art gallery interior in Hamburg-Harvestehude"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="gallery-container">
+            <div className="max-w-3xl text-white">
+              <h1 className="font-display text-4xl lg:text-6xl mb-6">
+                Galerie & Art Depot・Anne Moerchen
+              </h1>
+              <div className="space-y-4 mb-8">
+                <p className="text-xl lg:text-2xl font-sans-light">
+                  Internationale zeitgenössische Kunst in Hamburg–Harvestehude.
+                </p>
+                <p className="text-lg lg:text-xl text-white/90">
+                  International contemporary art in Hamburg–Harvestehude.
+                </p>
+              </div>
+              <Link to="/kontakt" className="gallery-button">
+                Besuch planen / Plan your visit
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <main>
+        {/* International Contemporary Art Section */}
+        <section className="gallery-section">
+          <div className="gallery-container">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-display text-3xl lg:text-4xl text-center mb-12">
+                International Contemporary Art
+              </h2>
+              
+              <div className="prose prose-lg max-w-none space-y-8">
+                <p className="text-lg leading-relaxed">
+                  Internationale renommierte und junge zeitgenössische Künstler. Schwerpunkt ist die Malerei mit expressiver, figurativer bis realistischer Kunst. Fotografie und Skulptur sind auch vertreten.
+                </p>
+                
+                <p className="text-lg leading-relaxed">
+                  Auch hier zeigt die Galeristin einen Querschnitt ihres weit gefächerten Angebots an Bildern von internationalen Künstlern. Ein Mix aus figurativ bis abstrakt, wobei die expressive Farbigkeit der Werke einen sofort in den Bann zieht.
+                </p>
+                
+                <p className="text-lg leading-relaxed">
+                  Es werden aber auch schwarz-weiß Werke des 2008 verstorbenen international bekannten Malers Sonderborg präsentiert.
+                </p>
+                
+                <p className="text-lg leading-relaxed">
+                  Neu sind einige Frauen-Bilder der Hamburgerin Ragna v Negelein und der jungen Künstlerin Pancho Mama. Ebenfalls gibt es freche Pop-Up-Bilder des jungen Hamburger Malers Marvin Wagner, der sich mit der Sucht nach bekannten Modelabels auseinandersetzt.
+                </p>
+                
+                <p className="text-lg leading-relaxed">
+                  Auch neue abstrakte Werke des Hamburger Malers Robert Hoffmann laden zum Betrachten ein!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Visit Invitation */}
+        <section className="gallery-section bg-secondary/30">
+          <div className="gallery-container">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="font-display text-2xl lg:text-3xl mb-6">
+                Entdecken Sie die Werke vor Ort
+              </h2>
+              <p className="text-lg mb-4">
+                Wir präsentieren wechselnde Auswahl im Raum – ohne Online-Shop. Kommen Sie vorbei und entdecken Sie die Werke vor Ort.
+              </p>
+              <p className="text-base text-muted-foreground">
+                <em>We curate selections in the space—no online shop. Visit us to experience the works in person.</em>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Opening Hours */}
+        <section className="gallery-section">
+          <div className="gallery-container">
+            <div className="max-w-2xl mx-auto">
+              <h2 className="font-display text-2xl lg:text-3xl text-center mb-12">
+                Öffnungszeiten / Opening Hours
+              </h2>
+              
+              <div className="gallery-card p-8 text-center">
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xl font-medium mb-1">Donnerstag & Freitag</p>
+                    <p className="text-lg text-muted-foreground">13:30 – 18:00</p>
+                  </div>
+                  
+                  <div>
+                    <p className="text-xl font-medium mb-1">Samstag</p>
+                    <p className="text-lg text-muted-foreground">12:00 – 15:00</p>
+                  </div>
+                  
+                  <div className="pt-4 border-t border-border">
+                    <p className="text-base text-muted-foreground">
+                      Und nach telefonischer Vereinbarung
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      <em>And by telephone appointment</em>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Gallery Images */}
+        <section className="gallery-section">
+          <div className="gallery-container">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="gallery-card">
+                <img
+                  src={interiorImage1}
+                  alt="Gallery interior showing contemporary artworks in minimalist white space"
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              <div className="gallery-card">
+                <img
+                  src={interiorImage2}
+                  alt="Modern gallery exhibition space with visitors viewing contemporary art"
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+};
+
+export default Home;
