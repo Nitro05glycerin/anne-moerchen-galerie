@@ -22,7 +22,7 @@ const Geschichte = () => {
                 <img 
                   src={historyInterior} 
                   alt="Gallery interior with contemporary artworks displayed on yellow walls"
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 sm:h-auto object-cover sm:object-contain"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ const Geschichte = () => {
                       <img 
                         src={historyDorotheenstrasse} 
                         alt="Historic gallery exterior on Dorotheenstraße in Winterhude showing traditional storefront with gallery signage and exhibition poster"
-                        className="w-full h-48 object-cover"
+                        className="w-full h-48 sm:h-auto object-cover sm:object-contain"
                       />
                     </div>
                   </div>
@@ -90,14 +90,14 @@ const Geschichte = () => {
                       <img 
                         src={historyMilchstrasseOld} 
                         alt="Historic gallery exterior on Milchstraße with traditional storefront and exhibition posters"
-                        className="w-full h-48 object-cover"
+                        className="w-full h-48 md:h-auto object-cover md:object-contain"
                       />
                     </div>
                     <div className="gallery-card overflow-hidden">
                       <img 
                         src={historyMilchstrasse} 
                         alt="Gallery exterior on Milchstraße showing modern storefront with large windows displaying artworks"
-                        className="w-full h-48 object-cover"
+                        className="w-full h-48 md:h-auto object-cover md:object-contain"
                       />
                     </div>
                   </div>
