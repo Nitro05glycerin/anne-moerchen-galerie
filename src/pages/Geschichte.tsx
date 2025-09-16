@@ -115,7 +115,7 @@ const Geschichte = () => {
 
               {/* Seit 2021 */}
               <div className="border-l-4 border-primary pl-8 ml-4">
-                <div className="gallery-card p-8 bg-accent/20">
+                <div className="gallery-card p-8">
                   <div className="flex items-center mb-4">
                     <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
                       Seit 2021
@@ -130,6 +130,27 @@ const Geschichte = () => {
                   <div className="flex space-x-4 text-sm text-muted-foreground">
                     <span>Instagram</span>
                     <span>Galerien in Hamburg</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Feb 2022 */}
+              <div className="border-l-4 border-primary pl-8 ml-4">
+                <div className="gallery-card p-8 bg-accent/20">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
+                      Feb 2022
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl mb-3">
+                    Abteistraße 30, 20144 Hamburg (Harvestehude)
+                  </h3>
+                  <p className="text-base leading-relaxed mb-4">
+                    Angekündigt als neuer Standort mit Öffnungszeiten Do & Fr 13:30–18:00 (andere Tage nach Vereinbarung). 
+                    Dokumentiert am 18. Februar 2022.
+                  </p>
+                  <div className="flex space-x-4 text-sm text-muted-foreground">
+                    <span>ganz-hamburg</span>
                   </div>
                 </div>
               </div>
