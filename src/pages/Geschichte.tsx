@@ -2,6 +2,7 @@ import Navigation from '../components/Navigation';
 import historyMilchstrasse from '../assets/history-milchstrasse.png';
 import historyInterior from '../assets/history-interior.jpg';
 import historyMilchstrasseOld from '../assets/history-milchstrasse-old.png';
+import historyDorotheenstrasse from '../assets/history-dorotheenstrasse.png';
 
 const Geschichte = () => {
   return (
@@ -49,6 +50,18 @@ const Geschichte = () => {
                   <h3 className="font-display text-xl mb-3">
                     Dorotheenstraße 53, 22301 Hamburg (Winterhude)
                   </h3>
+                  
+                  {/* Gallery Image */}
+                  <div className="mb-4">
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyDorotheenstrasse} 
+                        alt="Historic gallery exterior on Dorotheenstraße in Winterhude showing traditional storefront with gallery signage and exhibition poster"
+                        className="w-full h-48 object-cover"
+                      />
+                    </div>
+                  </div>
+                  
                   <p className="text-base leading-relaxed mb-4">
                     Frühe Ausstellungsjahre mit regelmäßigen Öffnungszeiten Mi–Fr 16–19 Uhr, Sa 12–15 Uhr.
                   </p>
