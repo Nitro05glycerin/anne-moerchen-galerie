@@ -72,47 +72,6 @@ const Geschichte = () => {
                 </div>
               </div>
 
-              {/* 2008-2016 */}
-              <div className="border-l-4 border-primary pl-8 ml-4">
-                <div className="gallery-card p-8">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                      2008–2016
-                    </div>
-                  </div>
-                  <h3 className="font-display text-xl mb-3">
-                    Milchstraße 6a, 20148 Hamburg (Rotherbaum/Harvestehude)
-                  </h3>
-                  
-                  {/* Gallery Images */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <div className="gallery-card overflow-hidden">
-                      <img 
-                        src={historyMilchstrasseOld} 
-                        alt="Historic gallery exterior on Milchstraße with traditional storefront and exhibition posters"
-                        className="w-full h-48 md:h-auto object-cover md:object-contain"
-                      />
-                    </div>
-                    <div className="gallery-card overflow-hidden">
-                      <img 
-                        src={historyMilchstrasse} 
-                        alt="Gallery exterior on Milchstraße showing modern storefront with large windows displaying artworks"
-                        className="w-full h-48 md:h-auto object-cover md:object-contain"
-                      />
-                    </div>
-                  </div>
-                  
-                  <p className="text-base leading-relaxed mb-4">
-                    Programm zeitgenössischer Kunst; Öffnungszeiten meist Di–Fr 13:30–18:30, Sa 12–15.
-                  </p>
-                  <div className="flex space-x-4 text-sm text-muted-foreground">
-                    <span>Yelp</span>
-                    <span>ArtRabbit</span>
-                    <span>Galerien in Hamburg</span>
-                  </div>
-                </div>
-              </div>
-
               {/* Seit 2021 */}
               <div className="border-l-4 border-primary pl-8 ml-4">
                 <div className="gallery-card p-8">
@@ -151,6 +110,47 @@ const Geschichte = () => {
                   </p>
                   <div className="flex space-x-4 text-sm text-muted-foreground">
                     <span>ganz-hamburg</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* 2008-2016 */}
+              <div className="border-l-4 border-primary pl-8 ml-4">
+                <div className="gallery-card p-8">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
+                      2008–2016
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl mb-3">
+                    Milchstraße 6a, 20148 Hamburg (Rotherbaum/Harvestehude)
+                  </h3>
+                  
+                  {/* Gallery Images */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyMilchstrasseOld} 
+                        alt="Historic gallery exterior on Milchstraße with traditional storefront and exhibition posters"
+                        className="w-full h-48 md:h-auto object-cover md:object-contain"
+                      />
+                    </div>
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyMilchstrasse} 
+                        alt="Gallery exterior on Milchstraße showing modern storefront with large windows displaying artworks"
+                        className="w-full h-48 md:h-auto object-cover md:object-contain"
+                      />
+                    </div>
+                  </div>
+                  
+                  <p className="text-base leading-relaxed mb-4">
+                    Programm zeitgenössischer Kunst; Öffnungszeiten meist Di–Fr 13:30–18:30, Sa 12–15.
+                  </p>
+                  <div className="flex space-x-4 text-sm text-muted-foreground">
+                    <span>Yelp</span>
+                    <span>ArtRabbit</span>
+                    <span>Galerien in Hamburg</span>
                   </div>
                 </div>
               </div>
