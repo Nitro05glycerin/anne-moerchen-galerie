@@ -1,4 +1,7 @@
 import Navigation from '../components/Navigation';
+import historyMilchstrasse from '../assets/history-milchstrasse.png';
+import historyInterior from '../assets/history-interior.jpg';
+import historyMilchstrasseOld from '../assets/history-milchstrasse-old.png';
 
 const Geschichte = () => {
   return (
@@ -11,6 +14,17 @@ const Geschichte = () => {
             <h1 className="font-display text-4xl lg:text-5xl text-center mb-16">
               Geschichte / History
             </h1>
+            
+            {/* Hero Image */}
+            <div className="mb-16">
+              <div className="gallery-card overflow-hidden">
+                <img 
+                  src={historyInterior} 
+                  alt="Gallery interior with contemporary artworks displayed on yellow walls"
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+            </div>
             
             {/* Lead Text */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -56,6 +70,25 @@ const Geschichte = () => {
                   <h3 className="font-display text-xl mb-3">
                     Milchstraße 6a, 20148 Hamburg (Rotherbaum/Harvestehude)
                   </h3>
+                  
+                  {/* Gallery Images */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyMilchstrasseOld} 
+                        alt="Historic gallery exterior on Milchstraße with traditional storefront and exhibition posters"
+                        className="w-full h-48 object-cover"
+                      />
+                    </div>
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyMilchstrasse} 
+                        alt="Gallery exterior on Milchstraße showing modern storefront with large windows displaying artworks"
+                        className="w-full h-48 object-cover"
+                      />
+                    </div>
+                  </div>
+                  
                   <p className="text-base leading-relaxed mb-4">
                     Programm zeitgenössischer Kunst; Öffnungszeiten meist Di–Fr 13:30–18:30, Sa 12–15.
                   </p>
