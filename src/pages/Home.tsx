@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
-import heroImage from '../assets/gallery-hero.jpg';
+import heroImage from '/lovable-uploads/IMG_7960.jpg.png';
 import interiorImageNew from '/lovable-uploads/IMG_0173.jpg.png';
 import galleryOpening from '/lovable-uploads/6103267c-e81f-4392-a67c-276e64c16cb1.JPG.png';
 
@@ -13,7 +13,7 @@ const Home = () => {
       <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
         <img
           src={heroImage}
-          alt="Galerie & Art Depot - Contemporary art gallery interior in Hamburg-Harvestehude"
+          alt="Galerie & Art Depot storefront in Hamburg-Harvestehude with colorful contemporary artworks displayed in windows"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/30" />
