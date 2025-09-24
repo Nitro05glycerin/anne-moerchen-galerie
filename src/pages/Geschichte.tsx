@@ -39,16 +39,16 @@ const Geschichte = () => {
 
             {/* Timeline */}
             <div className="space-y-16">
-              {/* 2001 */}
+              {/* 1) Dorotheenstraße */}
               <div className="border-l-4 border-primary pl-8 ml-4">
                 <div className="gallery-card p-8">
                   <div className="flex items-center mb-4">
                     <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                      Seit 2001
+                      2003–2004
                     </div>
                   </div>
                   <h3 className="font-display text-xl mb-3">
-                    Dorotheenstraße 53, 22301 Hamburg (Winterhude)
+                    Dorotheenstraße 53, 22301 Hamburg
                   </h3>
                   
                   {/* Gallery Image */}
@@ -63,7 +63,7 @@ const Geschichte = () => {
                   </div>
                   
                   <p className="text-base leading-relaxed mb-4">
-                    Frühe Ausstellungsjahre mit regelmäßigen Öffnungszeiten Mi–Fr 16–19 Uhr, Sa 12–15 Uhr.
+                    Die frühen Jahre der Galerie lagen in Winterhude. Ausstellungen aus den Jahren 2003–2004 sind für diese Adresse dokumentiert.
                   </p>
                   <div className="flex space-x-4 text-sm text-muted-foreground">
                     <span>taz.de</span>
@@ -72,58 +72,16 @@ const Geschichte = () => {
                 </div>
               </div>
 
-              {/* Seit 2021 */}
+              {/* 2) Milchstraße */}
               <div className="border-l-4 border-primary pl-8 ml-4">
                 <div className="gallery-card p-8">
                   <div className="flex items-center mb-4">
                     <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                      Seit 2021
+                      ab 2009
                     </div>
                   </div>
                   <h3 className="font-display text-xl mb-3">
-                    Brahmsallee 24, 20144 Hamburg (Harvestehude)
-                  </h3>
-                  <p className="text-base leading-relaxed mb-4">
-                    Heutiger Standort „Galerie & Art Depot"; regelmäßige Öffnungszeiten Do–Fr 13:30–18:00, Sa 12:00–15:00.
-                  </p>
-                  <div className="flex space-x-4 text-sm text-muted-foreground">
-                    <span>Instagram</span>
-                    <span>Galerien in Hamburg</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Feb 2022 */}
-              <div className="border-l-4 border-primary pl-8 ml-4">
-                <div className="gallery-card p-8 bg-accent/20">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                      Feb 2022
-                    </div>
-                  </div>
-                  <h3 className="font-display text-xl mb-3">
-                    Abteistraße 30, 20144 Hamburg (Harvestehude)
-                  </h3>
-                  <p className="text-base leading-relaxed mb-4">
-                    Angekündigt als neuer Standort mit Öffnungszeiten Do & Fr 13:30–18:00 (andere Tage nach Vereinbarung). 
-                    Dokumentiert am 18. Februar 2022.
-                  </p>
-                  <div className="flex space-x-4 text-sm text-muted-foreground">
-                    <span>ganz-hamburg</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* 2008-2016 */}
-              <div className="border-l-4 border-primary pl-8 ml-4">
-                <div className="gallery-card p-8">
-                  <div className="flex items-center mb-4">
-                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                      2008–2016
-                    </div>
-                  </div>
-                  <h3 className="font-display text-xl mb-3">
-                    Milchstraße 6a, 20148 Hamburg (Rotherbaum/Harvestehude)
+                    Milchstraße 6a, 20148 Hamburg
                   </h3>
                   
                   {/* Gallery Images */}
@@ -145,11 +103,52 @@ const Geschichte = () => {
                   </div>
                   
                   <p className="text-base leading-relaxed mb-4">
-                    Programm zeitgenössischer Kunst; Öffnungszeiten meist Di–Fr 13:30–18:30, Sa 12–15.
+                    Spätestens Ende der 2000er war die Galerie in Rotherbaum/Harvestehude an der Milchstraße aktiv; für 2009 sind dort Ausstellungen und Verzeichniseinträge nachweisbar.
                   </p>
                   <div className="flex space-x-4 text-sm text-muted-foreground">
                     <span>Yelp</span>
                     <span>ArtRabbit</span>
+                    <span>Galerien in Hamburg</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* 3) Abteistraße */}
+              <div className="border-l-4 border-primary pl-8 ml-4">
+                <div className="gallery-card p-8 bg-accent/20">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
+                      Anschließend
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl mb-3">
+                    Abteistraße 30, 20144 Hamburg
+                  </h3>
+                  <p className="text-base leading-relaxed mb-4">
+                    Anschließend erfolgte der Umzug in die Abteistraße nach Harvestehude. (Hinweis: In offiziellen Verzeichnissen taucht die Postleitzahl teils als 20149 auf.) Zeitungs- und Branchenhinweise führen diesen Standort als „neue Räumlichkeiten" mit regelmäßigen Öffnungszeiten.
+                  </p>
+                  <div className="flex space-x-4 text-sm text-muted-foreground">
+                    <span>ganz-hamburg</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* 4) Brahmsallee (aktuell) */}
+              <div className="border-l-4 border-primary pl-8 ml-4">
+                <div className="gallery-card p-8">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
+                      Aktuell
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl mb-3">
+                    Brahmsallee 24, 20144 Hamburg
+                  </h3>
+                  <p className="text-base leading-relaxed mb-4">
+                    Heute hat die Galerie ihren Sitz in der Brahmsallee (Harvestehude/Grindel). Diese Adresse wird in den aktuellen Profilen und Kontaktangaben als gültiger Standort geführt.
+                  </p>
+                  <div className="flex space-x-4 text-sm text-muted-foreground">
+                    <span>Instagram</span>
                     <span>Galerien in Hamburg</span>
                   </div>
                 </div>
