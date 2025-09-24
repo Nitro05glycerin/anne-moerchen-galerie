@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import heroImage from '../assets/gallery-hero.jpg';
-import interiorImage1 from '../assets/gallery-interior-1.jpg';
-import interiorImage2 from '../assets/gallery-interior-2.jpg';
+import interiorImageNew from '/lovable-uploads/IMG_0173.jpg.png';
+import galleryOpening from '/lovable-uploads/6103267c-e81f-4392-a67c-276e64c16cb1.JPG.png';
 
 const Home = () => {
   return (
@@ -131,15 +131,15 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="gallery-card">
                 <img
-                  src={interiorImage1}
-                  alt="Gallery interior showing contemporary artworks in minimalist white space"
+                  src={interiorImageNew}
+                  alt="Gallery interior with colorful contemporary artworks and modern track lighting"
                   className="w-full h-64 object-cover"
                 />
               </div>
               <div className="gallery-card">
                 <img
-                  src={interiorImage2}
-                  alt="Modern gallery exhibition space with visitors viewing contemporary art"
+                  src={galleryOpening}
+                  alt="Gallery opening event with visitors gathered outside the contemporary art space"
                   className="w-full h-64 object-cover"
                 />
               </div>
