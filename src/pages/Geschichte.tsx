@@ -16,16 +16,6 @@ const Geschichte = () => {
               Geschichte / History
             </h1>
             
-            {/* Hero Image */}
-            <div className="mb-16">
-              <div className="gallery-card overflow-hidden">
-                <img 
-                  src={historyInterior} 
-                  alt="Gallery interior with contemporary artworks displayed on yellow walls"
-                  className="w-full h-64 sm:h-auto object-cover sm:object-contain"
-                />
-              </div>
-            </div>
             
             {/* Lead Text */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -84,20 +74,13 @@ const Geschichte = () => {
                     Milchstraße 6a, 20148 Hamburg
                   </h3>
                   
-                  {/* Gallery Images */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                    <div className="gallery-card overflow-hidden">
-                      <img 
-                        src={historyMilchstrasseOld} 
-                        alt="Historic gallery exterior on Milchstraße with traditional storefront and exhibition posters"
-                        className="w-full h-48 md:h-auto object-cover md:object-contain"
-                      />
-                    </div>
+                  {/* Gallery Image */}
+                  <div className="mb-4">
                     <div className="gallery-card overflow-hidden">
                       <img 
                         src={historyMilchstrasse} 
                         alt="Gallery exterior on Milchstraße showing modern storefront with large windows displaying artworks"
-                        className="w-full h-48 md:h-auto object-cover md:object-contain"
+                        className="w-full h-48 sm:h-auto object-cover sm:object-contain"
                       />
                     </div>
                   </div>
@@ -124,6 +107,18 @@ const Geschichte = () => {
                   <h3 className="font-display text-xl mb-3">
                     Abteistraße 30, 20144 Hamburg
                   </h3>
+                  
+                  {/* Gallery Image */}
+                  <div className="mb-4">
+                    <div className="gallery-card overflow-hidden">
+                      <img 
+                        src={historyInterior} 
+                        alt="Gallery interior with contemporary artworks displayed on yellow walls"
+                        className="w-full h-48 sm:h-auto object-cover sm:object-contain"
+                      />
+                    </div>
+                  </div>
+                  
                   <p className="text-base leading-relaxed mb-4">
                     Anschließend erfolgte der Umzug in die Abteistraße nach Harvestehude. (Hinweis: In offiziellen Verzeichnissen taucht die Postleitzahl teils als 20149 auf.) Zeitungs- und Branchenhinweise führen diesen Standort als „neue Räumlichkeiten" mit regelmäßigen Öffnungszeiten.
                   </p>
