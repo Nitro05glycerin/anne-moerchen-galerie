@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
+import { artists } from '../data/artists';
 import heroImage from '/lovable-uploads/IMG_7960.jpg.png';
 import interiorImageNew from '/lovable-uploads/IMG_0173.jpg.png';
 import galleryOpening from '/lovable-uploads/6103267c-e81f-4392-a67c-276e64c16cb1.JPG.png';
@@ -143,6 +144,30 @@ const Home = () => {
                   className="w-full h-64 object-cover"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Artists List */}
+        <section className="gallery-section bg-secondary/30">
+          <div className="gallery-container">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="font-display text-3xl lg:text-4xl text-center mb-12">
+                Artists
+              </h2>
+              
+              <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-3 text-center md:text-left">
+                {artists.map(artist => (
+                  <li key={artist.slug}>
+                    <Link
+                      to={`/artists#${artist.slug}`}
+                      className="text-foreground hover:text-primary gallery-transition border-b border-transparent hover:border-primary inline-block"
+                    >
+                      {artist.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </section>
