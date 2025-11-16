@@ -39,8 +39,27 @@ const artistNames = [
   'Marvin Wagner',
 ];
 
+// Extract last name for sorting
+const getLastName = (name: string): string => {
+  // Handle special cases
+  if (name === 'GRAFY' || name === 'Radomir') {
+    return name;
+  }
+  
+  // Remove parenthetical content
+  const cleanName = name.replace(/\s*\([^)]*\)/g, '');
+  
+  // Split by space and get last word
+  const parts = cleanName.trim().split(/\s+/);
+  return parts[parts.length - 1];
+};
+
 export const artists: Artist[] = artistNames
-  .sort((a, b) => a.localeCompare(b))
+  .sort((a, b) => {
+    const lastNameA = getLastName(a);
+    const lastNameB = getLastName(b);
+    return lastNameA.localeCompare(lastNameB);
+  })
   .map(name => ({
     name,
     slug: slugify(name),
