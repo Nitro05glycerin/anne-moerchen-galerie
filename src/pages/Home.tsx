@@ -64,7 +64,7 @@ const Home = () => {
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  Neu sind einige Frauen-Bilder der Hamburgerin Ragna v Negelein und der jungen Künstlerin Pancho Mama. Ebenfalls gibt es freche Pop-Up-Bilder des jungen Hamburger Malers Marvin Wagner, der sich mit der Sucht nach bekannten Modelabels auseinandersetzt.
+                  Neu sind einige Frauen-Bilder der Hamburgerin Ragna v Negelein. Ebenfalls gibt es freche Pop-Up-Bilder des jungen Hamburger Malers Marvin Wagner, der sich mit der Sucht nach bekannten Modelabels auseinandersetzt.
                 </p>
                 
                 <p className="text-lg leading-relaxed">
@@ -143,6 +143,62 @@ const Home = () => {
                   alt="Gallery opening event with visitors gathered outside the contemporary art space"
                   className="w-full h-64 object-cover"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Impressions */}
+        <section className="gallery-section">
+          <div className="gallery-container">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="font-display text-3xl lg:text-4xl text-center mb-12">
+                Impressions
+              </h2>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-1.png"
+                    alt="Contemporary art exhibition with vibrant surfboard painting in gallery window"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-2.png"
+                    alt="Gallery interior featuring contemporary abstract landscape painting"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-3.png"
+                    alt="Gallery opening event with visitors viewing contemporary art"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-4.png"
+                    alt="Visitors viewing pop art Coca-Cola painting at gallery exhibition"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-5.png"
+                    alt="Gallery exhibition featuring vibrant pop art paintings of crushed Coca-Cola cans"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src="/lovable-uploads/impression-6.png"
+                    alt="Gallery office and exhibition space with colorful contemporary artworks"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>

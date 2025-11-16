@@ -12,9 +12,13 @@ const Artists = () => {
       <main className="gallery-section">
         <div className="gallery-container">
           <div className="max-w-6xl mx-auto">
-            <h1 className="font-display text-4xl lg:text-5xl text-center mb-16">
+            <h1 className="font-display text-4xl lg:text-5xl text-center mb-8">
               Artists
             </h1>
+            
+            <p className="text-lg text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
+              ständig wechselnde Hängungen mit Werken der Galeriekünstler und einzelne Arbeiten neuer Künstler.
+            </p>
             
             <nav className="mb-12">
               <ul className="flex flex-wrap justify-center gap-3 text-sm">
