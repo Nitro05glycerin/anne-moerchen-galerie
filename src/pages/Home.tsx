@@ -126,28 +126,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Gallery Images */}
-        <section className="gallery-section">
-          <div className="gallery-container">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="gallery-card">
-                <img
-                  src={interiorImageNew}
-                  alt="Gallery interior with colorful contemporary artworks and modern track lighting"
-                  className="w-full h-64 object-cover"
-                />
-              </div>
-              <div className="gallery-card">
-                <img
-                  src={galleryOpening}
-                  alt="Gallery opening event with visitors gathered outside the contemporary art space"
-                  className="w-full h-64 object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Impressions */}
         <section className="gallery-section">
           <div className="gallery-container">
@@ -157,6 +135,20 @@ const Home = () => {
               </h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src={interiorImageNew}
+                    alt="Gallery interior with colorful contemporary artworks and modern track lighting"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <div className="gallery-card overflow-hidden">
+                  <img
+                    src={galleryOpening}
+                    alt="Gallery opening event with visitors gathered outside the contemporary art space"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
                 <div className="gallery-card overflow-hidden">
                   <img
                     src="/lovable-uploads/impression-1.png"
